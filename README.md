@@ -1,34 +1,34 @@
-# Predictive-Modeling-for-Treatment-Outcomes-in-Alcohol-and-Nicotine-Use-Disorders
+# Predictive Substance Use Modeling
 
-This repository contains a proof-of-concept project aimed at developing a predictive model to forecast patient responses to treatments for Alcohol and Nicotine Use Disorders. The goal is to identify which patients are likely to respond positively to the treatment based on their initial assessments and demographic information.
+This repository contains code and resources for building predictive models to determine the likelihood of an individual using alcohol and nicotine based on their demographic and personality traits.
 
 ## Project Overview
 
-### Objective
-To build and evaluate a predictive model that can accurately forecast treatment outcomes for patients with substance use disorders, specifically focusing on alcohol and nicotine use.
+The goal of this project is to develop machine learning models that can predict the probability of alcohol and nicotine usage by individuals. The predictive models are trained using demographic data (such as age, gender, education level) and personality traits (e.g., openness, conscientiousness) as features.
 
-### Data Sources
-- **Datasets**: NIDA Data Share, SAMHSA Data, and ASI Data.
+### Key Features:
 
-### Key Steps
-1. **Data Acquisition**: Loading and preparing data.
-2. **Data Cleaning**: Handling missing values, normalizing/standardizing features, and encoding categorical variables.
-3. **Exploratory Data Analysis (EDA)**: Visualizing data distributions and identifying key features.
-4. **Feature Selection**: Using correlation analysis to select relevant features.
-5. **Model Development**: Training and evaluating models (Logistic Regression and Random Forest).
-6. **Model Evaluation**: Assessing model performance using accuracy, precision, recall, F1 score, and ROC AUC score.
-7. **Model Interpretation**: Generating confusion matrices to visualize model predictions.
+- Data preprocessing and exploration
+- Model development and evaluation
+- Hyperparameter tuning
+- Model comparison and selection
+
+### Technologies Used:
+
+- Python
+- Scikit-learn
+- Pandas
+- Matplotlib
+- Seaborn
 
 ## Repository Structure
-- `data/`: Contains data for demonstration.
+
+The repository is organized as follows:
+
+- `data/`: Contains the dataset used for training and testing the models.
 - `notebooks/`: Jupyter notebooks for data exploration, model development, and evaluation.
-- `scripts/`: Python scripts for data processing, model training, and evaluation.
-- `README.md`: Project overview and instructions.
+- `scripts/`: Python scripts for preprocessing, model training, and hyperparameter tuning.
+- `README.md`: This file, providing an overview of the project.
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request for any improvements or additions.
-
-## Acknowledgements
-National Institute on Drug Abuse (NIDA)
-Substance Abuse and Mental Health Services Administration (SAMHSA)
-Addiction Severity Index (ASI) Data
+## Acknowledgments
+The dataset used in this project is sourced from [https://www.kaggle.com/datasets/mexwell/drug-consumption-classification].
