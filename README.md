@@ -21,15 +21,6 @@ The goal of this project is to develop machine learning models that can predict 
 - Matplotlib
 - Seaborn
 
-## Repository Structure
-
-The repository is organized as follows:
-
-- `data/`: Contains the dataset used for training and testing the models.
-- `notebooks/`: Jupyter notebooks for data exploration, model development, and evaluation.
-- `scripts/`: Python scripts for preprocessing, model training, and hyperparameter tuning.
-- `README.md`: This file, providing an overview of the project.
-
 ## Insights 
 ![Average_use_of_each_drug](https://github.com/poorvaja-s-hub/Predictive-Modeling-for-Treatment-Outcomes-in-Alcohol-and-Nicotine-Use-Disorders/assets/173160776/04c9325b-484f-4b7a-973f-d0a1480c70f7)
 
